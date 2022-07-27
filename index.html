@@ -16,7 +16,6 @@
     <header class="header">
       <h1>Mezz Davies</h1>
       <h2>Junior Software Developer</h2>
-      <p>...</p>
     </header>
     <main>
       <!-- projects -->
@@ -85,23 +84,31 @@
         </article>
         <article class="project">
           <h4 class="project__title">Planet Scran It</h4>
-          <div style="padding: 62% 0 0 0; position: relative">
-            <iframe
-              src="https://player.vimeo.com/video/733631629?h=a2800dff23&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-              frameborder="0"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
+          <div class="project__video">
+            <div
               style="
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
+                padding: 62% 0 0 0;
+                position: relative;
+                box-shadow: 0px 6px 5px 2px rgba(0, 0, 0, 0.3);
               "
-              title="Planet Scran It.mp4"
-            ></iframe>
+            >
+              <iframe
+                src="https://player.vimeo.com/video/733631629?h=a2800dff23&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                frameborder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                "
+                title="Planet Scran It.mp4"
+              ></iframe>
+            </div>
+            <script src="https://player.vimeo.com/api/player.js"></script>
           </div>
-          <script src="https://player.vimeo.com/api/player.js"></script>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
             pariatur quae omnis minima asperiores impedit tempora perferendis
@@ -127,9 +134,13 @@
       <!-- technologies -->
       <section class="tech">
         <h3 class="section__title">technologies</h3>
-        <div class="tech__grid">
+        <div class="tech__flex">
           <div class="tech__card">
-            <img src="./Icons/Frontend.svg" alt="front end icon" />
+            <img
+              class="tech__icon"
+              src="./Icons/Frontend.svg"
+              alt="front end icon"
+            />
             <ul>
               <li>React JS</li>
               <li>HTML 5</li>
@@ -170,19 +181,21 @@
     </main>
     <!-- footer -->
     <footer class="footer">
-      <div class="footer__grid">
-        <div class="footer__info">
+      <div class="footer__info">
+        <a href="mailto:mezzdavies@gmail.com">
           <p>email</p>
           <p>mezzdavies@gmail.com</p>
-        </div>
-        <div class="footer__info">
-          <p>call</p>
-          <p>+44&nbsp;7968&nbsp;998747</p>
-        </div>
-        <div class="footer__info">
+        </a>
+      </div>
+      <div class="footer__info">
+        <p>call</p>
+        <p>+44&nbsp;7968&nbsp;998747</p>
+      </div>
+      <div class="footer__info">
+        <a href="M Davies CV 20220719.pdf" download>
           <p>cv</p>
           <p>download</p>
-        </div>
+        </a>
       </div>
     </footer>
   </body>
