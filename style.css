@@ -124,13 +124,15 @@ p a {
 }
 
 .project__title-1 {
-  font-size: 1.1em;
+  text-align: center;
+  font-size: 0.8em;
   padding: 0 0.5em 0.3em 0.3em;
   font-weight: 400;
 }
 .project__title {
-  font-size: 1.1em;
+  font-size: 0.8em;
   padding: 1.5em 0.5em 0.3em 0.3em;
+  text-align: center;
   font-weight: 400;
 }
 
