@@ -150,7 +150,9 @@ p a {
 .github-link {
   display: inline-block;
 }
-
+iframe {
+  border: none;
+}
 .embed-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -225,7 +227,7 @@ footer p {
   }
   main {
     width: 65%;
-    min-width: 640;
+    min-width: 640px;
     max-width: 730px;
     position: relative;
     top: 120px;
